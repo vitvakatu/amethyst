@@ -25,6 +25,7 @@ direct3d = []
 [dependencies]
 amethyst_config = { path = "src/config/", version = "0.2.1" }
 amethyst_renderer = { path = "src/renderer", version = "0.4.1" }
+amethyst_physics = { path = "src/physics", version = "0.1.0" }
 cgmath = "0.12"
 dds-rs = "0.4"
 num_cpus = "1.2"
@@ -66,4 +67,4 @@ name = "assets"
 path = "examples/05_assets/main.rs"
 
 [workspace]
-members = ["src/config", "src/renderer"]
+members = ["src/config", "src/renderer", "src/physics"]
