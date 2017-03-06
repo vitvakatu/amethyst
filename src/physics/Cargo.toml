@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["Ilya Bogdanov <fumlead@gmail.com>"]
 
 [dependencies]
+amethyst = { path = "../../", version = "*" }
 cgmath = "0.12"
 specs = "0.7"
