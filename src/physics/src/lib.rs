@@ -6,4 +6,6 @@ extern crate specs;
 
 mod particle;
 
+pub type Delta = f32;
+
 pub use particle::Particle;
